@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Server
-        run: ping -c 4 10.10.80.16
+        run: ping 10.10.80.16
