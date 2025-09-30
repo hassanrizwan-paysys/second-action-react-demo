@@ -1,8 +1,0 @@
-name: Testing Server
-on: push
-jobs:
-  test-server:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Ping Server
-        run: ping 10.10.80.16
