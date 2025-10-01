@@ -4,5 +4,5 @@ jobs:
   info: 
     runs-on: ubuntu-latest
     steps:
-      name: Output Github Context
-      run: echo "${{ toJson(github) }}"
+      - name: Output Github Context
+        run: echo "${{ toJson(github) }}"
